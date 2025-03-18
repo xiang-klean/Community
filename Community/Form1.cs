@@ -22,13 +22,31 @@ namespace Community
         {
             this.dlst = new DataList();
             this.dlst.addProvince(new Province(1, "Phnom Penh"));
+
             this.dlst.addDistrict(new District(1, 1, "Porsenchey"));
-            this.dlst.addDistrict(new District(2, 1, "Sensok"));
-            this.dlst.addDistrict(new District(3, 1, "ToulKork"));
-            this.dlst.addDistrict(new District(14, 1, "Dongkor"));
             this.dlst.addCommune(new Commune(1, 1, "Chom Chao 1"));
             this.dlst.addCommune(new Commune(2, 1, "Chom Chao 2"));
             this.dlst.addCommune(new Commune(3, 1, "Chom Chao 3"));
+            this.dlst.addCommune(new Commune(4, 1, "Kakab 1"));
+            this.dlst.addCommune(new Commune(5, 1, "Kakab 2"));
+            this.dlst.addCommune(new Commune(6, 1, "Samraong Kraom"));
+            this.dlst.addCommune(new Commune(7, 1, "Trapeang Krasang"));
+
+            this.dlst.addDistrict(new District(2, 1, "Sensok"));
+            this.dlst.addDistrict(new District(3, 1, "ToulKork"));
+            this.dlst.addDistrict(new District(4, 1, "Chamkar Mon"));
+            this.dlst.addDistrict(new District(5, 1, "Doun Penh"));
+            this.dlst.addDistrict(new District(6, 1, "Prampir Makara"));
+            this.dlst.addDistrict(new District(7, 1, "Dangkao"));
+            this.dlst.addDistrict(new District(8, 1, "Mean Chey"));
+            this.dlst.addDistrict(new District(9, 1, "Russey Keo"));
+            this.dlst.addDistrict(new District(10, 1, "Chroy Changvar"));
+            this.dlst.addDistrict(new District(11, 1, "Chbar Ampov"));
+            this.dlst.addDistrict(new District(12, 1, "Boeng Keng Kang"));
+            this.dlst.addDistrict(new District(13, 1, "Kamboul"));
+            this.dlst.addDistrict(new District(14, 1, "Prek Pnov"));
+
+            
 
             foreach(Province p in this.dlst.getProvinceList())
             {
