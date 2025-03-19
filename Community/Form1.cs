@@ -31,6 +31,7 @@ namespace Community
             this.dlst.addCommune(new Commune(5, 1, "Kakab 2"));
             this.dlst.addCommune(new Commune(6, 1, "Samraong Kraom"));
             this.dlst.addCommune(new Commune(7, 1, "Trapeang Krasang"));
+            this.dlst.addCommune(new Commune(8, 1, "Eykorban"));
 
             this.dlst.addDistrict(new District(2, 1, "Sensok"));
             this.dlst.addDistrict(new District(3, 1, "ToulKork"));
